@@ -1,39 +1,42 @@
-.main{
-       background-color: white;
-       display: inline-block;
-       border: none;
-       border-bottom: 4px solid #b3b3b1;
-       padding: 22px 22px 22px 20px;
-       margin: 0px 0px;
-       width: 100%;
-       outline: none;
-       text-align: center;
-       font-size: 18px;
-       font-family: monospace;
-       font-weight: 100;
-        color: #000;
-    }
+.main {
+    background-color: white;
+    display: inline-block;
+    border: none;
+    border-bottom: 4px solid #b3b3b1;
+    padding: 22px 22px 22px 20px;
+    margin: 0px 0px;
+    width: 100%;
+    outline: none;
+    text-align: center;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: 100;
+    color: #000;
+}
+
 h1 {
     color: black;
     font-family: Times;
     margin-left: 20px;
 }
 
-div{
+div {
     margin-top: 100px;
-      margin-bottom: 10px;
-        margin-right: 80px;
-          margin-left: 80px;
+    margin-bottom: 10px;
+    margin-right: 80px;
+    margin-left: 80px;
 
 }
+
 img {
-   border: 1px solid #ddd;
+    border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px
     margin: auto;
     width: 50%;
 }
-.ul1{
+
+.ul1 {
     list-style-type: none;
     margin: 0;
     padding: 4px;
@@ -52,29 +55,30 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-#ref{
+
+#ref {
     display: block;
     color: red;
     text-align: center;
     padding: 14px 16px;
     font-family: serif;
 }
-#bg-image{
-        min-height: 100%;
-        min-width: 1024px;
-        width: 100%;
-        height: auto;
-        position: fixed;
-        top: 0;
-        left: 0;
+
+.bg-image {
+    min-height: 100%;
+    min-width: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
-#text{
-  color:green;
-  font-size:3rem;
-  position: absolute;
-  text-align: center;
-  top: 200px;
-  left: 0;
-  width: 100%;
-  text-shadow: 1px 1px #000000;
+
+#text {
+    color: green;
+    font-size: 3rem;
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    left: 0;
+    width: 100%;
+    text-shadow: 1px 1px #000000;
 }
