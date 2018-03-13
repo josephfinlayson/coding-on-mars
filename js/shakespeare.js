@@ -18,7 +18,7 @@ function getShakespeareQuote(quoteName, successFunction, failureFunction) {
 
 $(document).ready(function () {
 
-    getShakespeareQuote("wordsworth", function (quote) {
+    getShakespeareQuote("shakespeare", function (quote) {
             $('#text').text(quote.quote);
             $('#text').append("<br/>");
             $('#text').append("<h4>" + quote.titles + "</h4>");
